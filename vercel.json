@@ -9,6 +9,27 @@
       }
     },
     {
+      "src": "/styles.css",
+      "headers": {
+        "Content-Type": "text/css",
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/main.js",
+      "headers": {
+        "Content-Type": "application/javascript",
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/b123a239-e348-48be-8647-1ac4e071fe01_removalai_preview.png",
+      "headers": {
+        "Content-Type": "image/png",
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
